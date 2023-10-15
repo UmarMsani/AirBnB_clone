@@ -43,6 +43,3 @@ class TestPlace(unittest.TestCase):
         self.assertFalse('latitude' in obj_dict)
         self.assertFalse('longitude' in obj_dict)
         self.assertFalse('amenity_ids' in obj_dict)
-
-if __name__ == "__main__":
-    unittest.main()

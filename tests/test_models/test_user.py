@@ -26,6 +26,3 @@ class TestUser(unittest.TestCase):
         self.assertTrue('created_at' in obj_dict)
         self.assertTrue('updated_at' in obj_dict)
         self.assertTrue('__class__' in obj_dict)
-
-if __name__ == "__main__":
-    unittest.main()

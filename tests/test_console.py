@@ -115,6 +115,3 @@ class, saves it (to the JSON file) and prints the id.\n', f.getvalue())
         with patch('sys.stdout', new=StringIO()) as f:
             HBNBCommand().onecmd("")
         self.assertEqual(f.getvalue(), '')
-
-if __name__ == "__main__":
-    unittest.main()

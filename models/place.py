@@ -7,7 +7,6 @@ class Place(BaseModel):
     """
     Class for Place objects, inherits from BaseModel.
     """
-
     city_id = ""
     user_id = ""
     name = ""
@@ -18,5 +17,4 @@ class Place(BaseModel):
     price_by_night = 0
     latitude = 0.0
     longitude = 0.0
- amenity_ids = []
-
+    amenity_ids = []

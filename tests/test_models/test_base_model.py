@@ -37,6 +37,3 @@ class TestBaseModel(unittest.TestCase):
     def test_updated_at_type(self):
         obj = BaseModel()
         self.assertIsInstance(obj.updated_at, datetime)
-
-if __name__ == "__main__":
-    unittest.main()

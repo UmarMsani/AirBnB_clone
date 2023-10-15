@@ -9,5 +9,3 @@ class State(BaseModel):
     Class for State objects, inherits from BaseModel.
     """
     name = ""
-
-

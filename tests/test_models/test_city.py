@@ -25,6 +25,3 @@ class TestCity(unittest.TestCase):
         self.assertTrue('__class__' in obj_dict)
         self.assertFalse('state_id' in obj_dict)
         self.assertFalse('name' in obj_dict)
-
-if __name__ == "__main__":
-    unittest.main()

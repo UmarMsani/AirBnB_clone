@@ -24,6 +24,3 @@ class TestAmenity(unittest.TestCase):
         amenity = Amenity()
         expected_output = f"[Amenity] ({amenity.id}) {amenity.__dict__}"
         self.assertEqual(str(amenity), expected_output)
-
-if __name__ == "__main__":
-    unittest.main()

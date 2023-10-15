@@ -24,6 +24,3 @@ class TestState(unittest.TestCase):
         self.assertTrue('updated_at' in obj_dict)
         self.assertTrue('__class__' in obj_dict)
         self.assertFalse('name' in obj_dict)
-
-if __name__ == "__main__":
-    unittest.main()

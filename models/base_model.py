@@ -26,7 +26,8 @@ class BaseModel:
         """Updates updated_at with current datetime."""
         self.updated_at = datetime.now()
         models.storage.save()
-def to_dict(self):
+
+    def to_dict(self):
         """returning the dictionary representation of instance."""
         my_dict = dict(self.__dict__)
         my_dict.update({'__class__': self.__class__.__name__,
@@ -38,5 +39,3 @@ def to_dict(self):
     def __str__(self):
         """The string representation."""
         return f"[{type(self).__name__}] ({self.id}) {self.__dict__}"
-
-

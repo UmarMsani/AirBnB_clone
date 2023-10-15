@@ -27,6 +27,3 @@ class TestReview(unittest.TestCase):
         self.assertFalse('place_id' in obj_dict)
         self.assertFalse('user_id' in obj_dict)
         self.assertFalse('text' in obj_dict)
-
-if __name__ == "__main__":
-    unittest.main()
