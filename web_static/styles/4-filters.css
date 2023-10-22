@@ -16,6 +16,7 @@ button.search {
     width: 20%;
     border: none;
     border-radius: 4px;
+    text-align: right;
     margin-right: 30px;
     transition: opacity 0.2s;
 }
