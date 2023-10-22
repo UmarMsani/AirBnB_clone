@@ -1,0 +1,20 @@
+footer {
+    background-color: #00FF00;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}

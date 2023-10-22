@@ -1,0 +1,21 @@
+section.places {
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
