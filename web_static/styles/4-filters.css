@@ -14,9 +14,9 @@ button.search {
     color: #FFFFFF;
     height: 48px;
     width: 20%;
-    border: none;
+    border: 0px;
     border-radius: 4px;
-    margin-right: 30px;
+    margin-left: 780px;
     transition: opacity 0.2s;
 }
 
